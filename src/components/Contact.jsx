@@ -131,7 +131,7 @@ export default function Contact() {
 
       <div className="grid lg:grid-cols-5 gap-10">
         {/* Left — social cards */}
-        <div className="lg:col-span-2 space-y-6wje">
+        <div className="lg:col-span-2 space-y-6">
           <h3 className="text-white font-semibold mb-2">Find me on</h3>
           {SOCIALS.map(({ icon: Icon, label, handle, href, color }) => (
             <motion.a
