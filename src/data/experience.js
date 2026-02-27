@@ -1,0 +1,48 @@
+export const experiences = [
+  {
+    id: 1,
+    role: 'Front-end Developer',
+    company: 'First Hive',
+    companyUrl: '#',
+    location: 'Bengaluru, Karnataka',
+    period: 'Oct 2023 – Present',
+    duration: '1 yr 4 mos',
+    type: 'Full-time',
+    description:
+      'Building scalable, feature-modular frontends for an enterprise marketing automation platform serving cross-functional teams across 10+ microservices.',
+    achievements: [
+      'Architected scalable frontend using React 19, TypeScript, and reusable component libraries (Radix UI, shadcn/ui), accelerating cross-team UI development.',
+      'Optimized performance via Vite configuration — code splitting, lazy route loading, SVG optimization, and esbuild transforms — delivering measurable bundle size reductions.',
+      'Standardized server-state management across 10+ microservices using TanStack React Query with OpenAPI-generated TypeScript clients.',
+      'Implemented enterprise security: MFA (TOTP + Email OTP) and robust JWT session lifecycle management with role-based access control (RBAC).',
+      'Led development of a visual drag-and-drop journey builder using React Flow and dnd-kit with real-time state via Zustand and TanStack React Query.',
+      'Integrated a multi-channel rich content suite combining Topol.io email builder and TipTap editor with AI-assisted content generation via a custom LLM API.',
+      'Developed a browser-based call center enabling live agent calling via WebRTC using SIP.js.',
+      'Built real-time analytics dashboards using Chart.js, Recharts, and CanvasJS to monitor operational metrics and agent performance.',
+      'Delivered image editing and document upload workflows using Fabric.js and Croppie; implemented PDF generation with jsPDF and html2canvas.',
+    ],
+    tags: ['React 19', 'TypeScript', 'TanStack Query', 'Redux Toolkit', 'Zustand', 'WebRTC', 'Vite', 'shadcn/ui'],
+  },
+  {
+    id: 2,
+    role: 'Front-end Developer',
+    company: 'Arshil',
+    companyUrl: '#',
+    location: 'Bengaluru, Karnataka',
+    period: 'Apr 2023 – Oct 2023',
+    duration: '6 mos',
+    type: 'Full-time',
+    description:
+      'Built a feature-rich SPA to manage products, customers, and sales operations with a focus on responsive design and data visualization.',
+    achievements: [
+      'Built a comprehensive single-page application to manage products, customers, and sales operations.',
+      'Created forms with advanced validation using React Hook Form and Yup for reliable user input handling.',
+      'Implemented data table functionalities with filtering and sorting using @mui/x-data-grid.',
+      'Developed a robust dashboard with real-time data visualization using Recharts.',
+      'Designed reusable, responsive components using Material UI and Styled-Components.',
+      'Ensured cross-browser compatibility and optimized the app for both mobile and desktop users.',
+      'Implemented secure login features with password strength validation.',
+    ],
+    tags: ['React', 'JavaScript', 'Material UI', 'Recharts', 'React Hook Form', 'Yup'],
+  },
+]

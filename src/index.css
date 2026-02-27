@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    @apply bg-dark-900 text-white;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: #080810;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(34, 211, 238, 0.3);
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0d0d1a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #22d3ee40;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #22d3ee80;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-max {
+    @apply max-w-6xl mx-auto;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply bg-dark-600 border border-white/5 rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-accent text-dark-900 font-semibold rounded-xl
+           hover:bg-accent-500 transition-all duration-200 hover:shadow-lg hover:shadow-accent/20
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-accent/60 text-accent font-semibold rounded-xl
+           hover:bg-accent/10 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 text-accent text-sm font-mono font-medium mb-3
+           before:content-['//'] before:opacity-50;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl font-bold mb-4;
+  }
+
+  .tech-badge {
+    @apply text-xs font-mono px-3 py-1 rounded-full bg-accent/10 text-accent border border-accent/20;
+  }
+}
+
+@layer utilities {
+  .text-muted {
+    @apply text-slate-400;
+  }
+
+  .glow {
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.15);
+  }
+
+  .glow-sm {
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.1);
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(34, 211, 238, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(34, 211, 238, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .bg-radial-glow {
+    background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(34, 211, 238, 0.12), transparent);
+  }
+}
