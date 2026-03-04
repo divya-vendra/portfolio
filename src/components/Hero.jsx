@@ -64,7 +64,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-300 mb-6"
         >
-          Frontend Developer
+          Software Engineer - Frontend Developer
         </motion.h2>
 
         {/* Tagline */}

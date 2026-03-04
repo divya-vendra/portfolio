@@ -51,7 +51,7 @@ function ProjectCard({ project, index }) {
           >
             <FiGithub size={18} />
           </a>
-          <a
+          {/* <a
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -61,7 +61,7 @@ function ProjectCard({ project, index }) {
                        transition-all duration-200 hover:scale-110"
           >
             <FiExternalLink size={18} />
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -95,7 +95,7 @@ function ProjectCard({ project, index }) {
             <FiGithub size={13} />
             Source
           </a>
-          <a
+          {/* <a
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -104,7 +104,7 @@ function ProjectCard({ project, index }) {
           >
             Live Demo
             <FiExternalLink size={13} />
-          </a>
+          </a> */}
         </div>
       </div>
     </motion.article>

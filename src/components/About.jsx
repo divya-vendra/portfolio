@@ -34,7 +34,7 @@ export default function About() {
         {/* Bio */}
         <div className="space-y-5">
           <p className="text-slate-300 leading-relaxed text-base">
-            I'm <span className="text-white font-semibold">Vendra Divya Sree</span>, a Frontend Developer
+            I'm <span className="text-white font-semibold">Vendra Divya Sree</span>, a Software Engineer - Frontend Developer
             based in Bengaluru, Karnataka with a focus on building responsive, dynamic UIs using React.js
             and modern frameworks like Redux Toolkit and Ant Design.
           </p>

@@ -17,8 +17,8 @@ export const projects = [
       'A modern e-commerce storefront with product filtering, cart management, Stripe payment integration, and an admin dashboard for inventory management.',
     image: null,
     tags: ['React', 'Redux', 'Express', 'Stripe API', 'PostgreSQL'],
-    liveUrl: 'https://shopsphere-demo.vercel.app',
-    githubUrl: 'https://github.com/alexmorgan/shopsphere',
+    // liveUrl: 'https://shopsphere-demo.vercel.app',
+    githubUrl: 'https://github.com/divya-vendra/shopsphere',
     featured: true,
   },
   // {
@@ -50,8 +50,8 @@ export const projects = [
       'A personal finance tracker with expense categorization, monthly budgeting, interactive charts, and CSV import/export functionality.',
     image: null,
     tags: ['React', 'Chart.js', 'LocalStorage', 'Tailwind CSS'],
-    liveUrl: 'https://fintrack-demo.vercel.app',
-    githubUrl: 'https://github.com/alexmorgan/fintrack',
+    // liveUrl: 'https://fintrack-demo.vercel.app',
+    githubUrl: 'https://github.com/divya-vendra/Fin-Track-App',
     featured: false,
   },
   // {

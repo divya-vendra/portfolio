@@ -31,7 +31,7 @@ export default function Footer() {
               <span className="text-accent">/&gt;</span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-              Frontend Developer based in Bengaluru, Karnataka.
+              Software Engineer - Frontend Developer based in Bengaluru, Karnataka.
               Building responsive, data-rich React applications with modern tooling.
             </p>
           </div>
