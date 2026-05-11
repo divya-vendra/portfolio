@@ -9,10 +9,10 @@ const STATS = [
 ]
 
 const STRENGTHS = [
+  { emoji: '🔧', title: 'Backend & Microservices',   desc: 'Java 17 / Spring Boot 3 microservices with Spring Security, MongoDB, Kubernetes, and AWS.' },
   { emoji: '⚡', title: 'Performance Optimization',  desc: 'Code splitting, lazy loading, memoization, and debouncing for blazing-fast React apps.' },
-  { emoji: '📊', title: 'Data Visualization',        desc: 'Complex datasets visualized with Chart.js, Recharts, ECharts, and D3.js.' },
-  { emoji: '🔌', title: 'API & Systems Integration', desc: 'REST APIs, OpenAPI TypeScript clients, WebRTC, SIP.js, and LLM API integrations.' },
-  { emoji: '🏗️', title: 'Scalable Architecture',    desc: 'Feature-modular frontends with Redux Toolkit, Zustand, TanStack Query, and custom hooks.' },
+  { emoji: '📊', title: 'Data Visualization',        desc: 'Complex datasets visualized with Chart.js, Recharts, ApexCharts, ECharts, and D3.js.' },
+  { emoji: '🔌', title: 'API & Systems Integration', desc: 'OpenAPI TypeScript clients, REST APIs, WebRTC/SIP.js, and AI streaming integrations.' },
 ]
 
 export default function About() {
@@ -34,19 +34,19 @@ export default function About() {
         {/* Bio */}
         <div className="space-y-5">
           <p className="text-slate-300 leading-relaxed text-base">
-            I'm <span className="text-white font-semibold">Vendra Divya Sree</span>, a Software Engineer - Frontend Developer
-            based in Bengaluru, Karnataka with a focus on building responsive, dynamic UIs using React.js
-            and modern frameworks like Redux Toolkit and Ant Design.
+            I'm <span className="text-white font-semibold">Vendra Divya Sree</span>, a Full Stack Developer
+            based in Bengaluru, Karnataka with 2+ years of experience delivering production-grade,
+            end-to-end features for enterprise platforms.
           </p>
           <p className="text-slate-400 leading-relaxed text-base">
-            I'm proficient in creating user-friendly interfaces, visualizing complex datasets, and
-            integrating APIs seamlessly. I have hands-on experience implementing real-time communication
-            systems (WebRTC / SIP.js) and enhancing performance through optimized code — from code
-            splitting and lazy loading to custom hooks architecture.
+            I build scalable React.js applications and Java/Spring Boot microservices spanning
+            AI-powered interfaces, real-time dashboards, rule compilation engines, and multi-cloud
+            REST APIs. Adept at deploying and integrating systems with MongoDB, Redis, Kafka, and
+            Kubernetes on AWS.
           </p>
           <p className="text-slate-400 leading-relaxed text-base">
-            Adept at testing, debugging, and ensuring reliability across projects. When I'm not coding,
-            I explore new frontend libraries and keep up with the ever-evolving React ecosystem.
+            When I'm not coding, I explore new libraries and keep up with the ever-evolving
+            full-stack ecosystem — from frontend performance patterns to distributed systems design.
           </p>
 
           <div className="pt-2">

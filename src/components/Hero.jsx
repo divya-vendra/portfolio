@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { HiArrowDown, HiDownload } from 'react-icons/hi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
-const TECH_STACK = ['React.js', 'TypeScript', 'Redux Toolkit', 'TanStack Query', 'Tailwind CSS v4']
+const TECH_STACK = ['React.js', 'TypeScript', 'Java / Spring Boot', 'TanStack Query', 'Tailwind CSS']
 
 const containerVariants = {
   hidden: {},
@@ -64,7 +64,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-300 mb-6"
         >
-          Software Engineer - Frontend Developer
+          Full Stack Developer
         </motion.h2>
 
         {/* Tagline */}
@@ -72,9 +72,9 @@ export default function Hero() {
           variants={itemVariants}
           className="max-w-2xl mx-auto text-slate-400 text-base sm:text-lg leading-relaxed mb-8"
         >
-          Building responsive, data-rich React applications with modern tooling.
-          2+ years delivering everything from real-time dashboards and drag-and-drop
-          builders to secure banking apps and AI-powered content suites.
+          Building end-to-end features for enterprise platforms — scalable React frontends,
+          Java/Spring Boot microservices, and multi-cloud REST APIs. 2+ years delivering
+          AI-powered interfaces, real-time dashboards, and secure banking applications.
         </motion.p>
 
         {/* Tech stack badges */}
@@ -99,7 +99,7 @@ export default function Hero() {
             <HiArrowDown className="animate-bounce" size={16} />
           </button>
           <a
-            href="/resume.pdf"
+            href="/divyasree_java_react_developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -144,7 +144,7 @@ export default function Hero() {
         <div className="card p-4 font-mono text-xs text-slate-500 glow-sm w-56">
           <p><span className="text-violet-400">const</span> <span className="text-accent">dev</span> = {'{'}</p>
           <p className="pl-3"><span className="text-slate-300">name</span>: <span className="text-emerald-400">'Divya'</span>,</p>
-          <p className="pl-3"><span className="text-slate-300">role</span>: <span className="text-emerald-400">'Frontend'</span>,</p>
+          <p className="pl-3"><span className="text-slate-300">role</span>: <span className="text-emerald-400">'Fullstack'</span>,</p>
           <p className="pl-3"><span className="text-slate-300">coffee</span>: <span className="text-orange-400">Infinity</span>,</p>
           <p className="pl-3"><span className="text-slate-300">bugs</span>: <span className="text-red-400">0</span>, <span className="text-slate-600">// 😅</span></p>
           <p>{'}'}</p>
@@ -158,8 +158,8 @@ export default function Hero() {
         className="absolute left-8 top-2/3 hidden xl:block"
       >
         <div className="card p-4 font-mono text-xs text-slate-500 glow-sm w-52">
-          <p><span className="text-cyan-400">{'<'}</span><span className="text-violet-400">ReactDeveloper</span></p>
-          <p className="pl-3 text-slate-400">skills<span className="text-accent">=</span><span className="text-emerald-400">{"{'unlimited'}"}</span></p>
+          <p><span className="text-cyan-400">{'<'}</span><span className="text-violet-400">FullStackDev</span></p>
+          <p className="pl-3 text-slate-400">stack<span className="text-accent">=</span><span className="text-emerald-400">{"{'React+Java'}"}</span></p>
           <p className="pl-3 text-slate-400">passion<span className="text-accent">=</span><span className="text-emerald-400">{"{'high'}"}</span></p>
           <p><span className="text-cyan-400">{'/>'}</span></p>
         </div>
